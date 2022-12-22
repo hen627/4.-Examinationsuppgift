@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES6", //vilken js 
+        // "module": "CommonJS",
+        "outDir": "./dist" //var ska den kompileras till
+    },
+    "include": ["./src"], //vad ska compileras
+    "exclude": []
+}
+
+//use tsc.cmd when trying to compile on windows.
